@@ -1,0 +1,22 @@
+spring:
+  application:
+    name:
+      guten-batch
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+sample-01:
+  datasource:
+    jdbc-url: jdbc:mysql://[your_host]:[your_port]/[your_default_db]
+    username: [your_db_username]
+    password: [your_db_password]
+sample-02:
+  datasource:
+    jdbc-url: jdbc:mysql://[your_host]:[your_port]/[your_default_db]
+    username: [your_db_username]
+    password: [your_db_password]
+
+
+
+
